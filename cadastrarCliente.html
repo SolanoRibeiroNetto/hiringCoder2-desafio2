@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Cadastro - Cliente</title>
+</head>
+
+<body>
+
+
+   <section class=" blackground-section section-One">
+
+      <h1>Cadastro de Novo Cliente</h1>
+
+      <div class="section-container">
+         <form action="form">
+
+            <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+
+            <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+
+            <input type="date" name="data_nascimento" id="data_nascimento">
+
+            <input type="email" name="email" id="email" placeholder="email@email.com">
+
+            <input type="text" name="telefone" id="telefone" placeholder="(00) 9 0000-0000">
+
+            <input type="text" name="cep" id="cep" placeholder="00000-000">
+
+            <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+
+            <input type="text" name="numero" id="numero" placeholder="Numero">
+
+            <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+
+            <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+
+            <input type="text" name="estado" id="estado" placeholder="Estado">
+
+            <input type="button" style="color: black;" id="cliente" onclick="salvarForm(this.id)" value="Cadastrar">
+         </form>
+      </div>
+   </section>
+
+   <footer>
+      <p>
+         Todos os direitos reservados Solano Ribeiro Netto
+      </p>
+   </footer>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>

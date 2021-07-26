@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Cadastrar - Produto</title>
+</head>
+
+<body>
+
+
+   <section class=" blackground-section section-One">
+
+      <h1>Cadastro de Novo Produto</h1>
+
+      <div class="section-container">
+         <form action="form">
+
+            <input type="text" name="descricao" id="descricao" placeholder="descrição">
+
+            <input type="text" name="nome_produto" id="nome_produto" placeholder="nome_produto">
+
+            <input type="text" name="fornecedor" id="fornecedor" placeholder="fornecedor">
+
+            <input type="text" name="preco_atacado" id="preco_atacado" placeholder="preco_atacado">
+
+            <input type="text" name="preco_varejo" id="preco_varejo" placeholder="preco_varejo">
+
+            <input type="button" style="color: black;" id="produto" onclick="salvarForm(this.id)" value="Cadastrar">
+         </form>
+      </div>
+   </section>
+
+   <footer>
+      <p>
+         Todos os direitos reservados Solano Ribeiro Netto
+      </p>
+   </footer>
+
+</body>
+<script src="js/script.js"></script>
+
+</html>
